@@ -1,0 +1,44 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    object-fit: cover;
+    gap: 24px;
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.card-price {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-favorites {
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+}
+.card-image img{ 
+    width: 330px;
+    height: 330px; 
+}
+.swiper-slide{
+    width: 335px !important;
+}
+
+.swiper-pagination {
+    bottom: -2px !important;
+}

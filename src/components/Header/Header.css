@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex: 1;
+
+    padding: 40px;
+
+    color: #333;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 8px;
+}
+
+.logo a {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 16px;
+}
+
+.nav a {
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.nav a:hover {
+    color: #6f0b93;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 16px;
+}
+
+.icons img {
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    position: relative;
+}
+
+.banner-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+
+    color: #f3f3f3;
+}
+
+.banner-content .title {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.banner-content .description {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 64px;
+}
